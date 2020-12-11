@@ -16,8 +16,8 @@
 #backButton {
     width: 100px;
     height: 90px;
-position: fixed;
-margin-left: 92%;
+
+margin-left: 45%;
     margin-top: 1%;
 border-radius: 122px;
     cursor: pointer;
@@ -100,9 +100,12 @@ border-radius: 122px;
 
 }
 .pageInfo{
-    text-align: center;
+
  padding: 50px 170px;
 }
 .bio{
     text-align: justify;
+}
+.imgInfo{
+text-align: center;
 }

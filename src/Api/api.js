@@ -4,7 +4,7 @@ const API_KEY = "&api_key=aa56245cf1ace076047f483492d92c57";
 
 const instance = axios.create({
 
-    baseURL: "http://ws.audioscrobbler.com/2.0",
+    baseURL: "https://ws.audioscrobbler.com/2.0",
 
 });
 

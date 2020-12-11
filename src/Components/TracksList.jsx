@@ -52,7 +52,7 @@ const TracksList = (props) => {
                 Author : {elem.artist.name}
             </div>
             <div id={"author"}>
-                URL : <a href={elem.artist.url}> Link </a>
+                URL : <a target="_blank" href={elem.artist.url}> Link </a>
             </div>
 
         </div>)
@@ -70,8 +70,7 @@ const TracksList = (props) => {
 
         </div>
         <div className={"allTracks"}>
-            {props.findedTracks.length >= 1 || findOn ? findedTracks : arrayPhotos}  // if there are finded show finded else show initialized
-
+            {props.findedTracks.length >= 1 || findOn ? findedTracks : arrayPhotos}
         </div>
         <div id={"marianDiv"}>Created for Test Task by <span className={"marian"}> &copy;<i>marianelement@gmail.com</i></span>
         </div>
